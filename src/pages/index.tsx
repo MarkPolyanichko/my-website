@@ -5,8 +5,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './index.module.css';
 
 const EMAIL = 'mark-polyanichko@yandex.ru';
-const PHONE_DISPLAY = '+7 911 162-84-44';
-const PHONE_HREF = 'tel:+79111628444';
 const TG_HANDLE = '@MarkPolyanichko';
 const TG_HREF = 'https://t.me/MarkPolyanichko';
 
@@ -579,10 +577,6 @@ export default function Home(): ReactNode {
                 <span>Почта</span>
                 {EMAIL}
               </a>
-              <a href={PHONE_HREF} className={styles.contactLink}>
-                <span>Телефон</span>
-                {PHONE_DISPLAY}
-              </a>
               <a href={vcard} download className={styles.contactLink}>
                 <span>Визитка</span>
                 Сохранить контакт
@@ -595,7 +589,7 @@ export default function Home(): ReactNode {
       <footer className={styles.footer}>
         <div className={`${styles.wrap} ${styles.footerInner}`}>
           <span>© {year} Марк Поляничко</span>
-          <span>Семья, наука и спорт · Женат, двое детей</span>
+          <span>markpol.ru</span>
         </div>
       </footer>
     </div>

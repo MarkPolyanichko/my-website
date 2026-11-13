@@ -13,8 +13,7 @@ const config: Config = {
     v4: true,
   },
 
-  // TODO: заменить на реальный домен сайта
-  url: 'https://markpolyanichko.github.io',
+  url: 'https://markpol.ru',
   baseUrl: '/',
 
   organizationName: 'MarkPolyanichko',

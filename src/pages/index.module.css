@@ -804,7 +804,7 @@
 .contactLinks {
   position: relative;
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   margin-top: clamp(48px, 6vw, 72px);
   border-top: 1px solid rgba(243, 239, 230, 0.16);
 }
@@ -915,16 +915,6 @@
   }
   .strength:nth-child(5) {
     grid-column: span 2;
-  }
-  .contactLinks {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-  .contactLink:nth-child(3) {
-    padding-left: 0;
-    border-left: 0;
-  }
-  .contactLink:nth-child(n + 3) {
-    border-top: 1px solid rgba(243, 239, 230, 0.16);
   }
   .sectionLede {
     margin-left: 0 !important;
